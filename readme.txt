@@ -8,3 +8,6 @@ It setup basic structure with java application.
 
 mvn clean -> The removal of all the artifacts that if has been created.
 mvn install -> compile the code and create the new artifacts.
+
+To run the maven main class:
+mvn exec:java -Dexec.mainClass="com.h2.App"
