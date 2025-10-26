@@ -41,6 +41,20 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- PostgreSQL JDBC Driver -->
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.7.7</version>
+    </dependency>
+
+    <!-- OpenCSV for CSV parsing -->
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>5.10</version>
+    </dependency>
   </dependencies>
 
   <build>
